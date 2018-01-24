@@ -69,7 +69,7 @@ def objfunc(x):
 
     res = 0
     func_part = np.array(x[:num_func*2]).reshape([-1, 2])
-    affo_part = np.array(x[num_func*2:-3]).reshape([-1, 2])
+    affo_part = np.array(x[(num_func-2)*2:-3]).reshape([-1, 2])
     sample_points = x[-3:]
 
     if not check(func_part):
