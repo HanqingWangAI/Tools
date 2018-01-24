@@ -1,5 +1,5 @@
 import math
-
+import numpy as np
 ZERO = -1e-9
 
 class Point(object):
@@ -14,4 +14,91 @@ class Vector(object):
         self.end_point = B
         self.x = B.x - A.x
         self.y = B.y - A.y
+        self.mod = math.sqrt(self.x*self.x+self.y*self.y)
 
+
+# orthogonal vector, y=-1 for right direction x = b/a, y = 1 for left direction, x = -b/a
+
+def negative(vector):
+    return Vector(vector.end_point, vector.start_point)
+
+def cross_product(vectorA, vectorB):
+    return vectorA.x * vectorB.y - vectorB.x * vectorA.y
+
+def inner_product(vectorA, vectorB):
+    return vectorA.x*vectorB.x + vectorA.y*vectorB.y
+
+def dis(A, B):
+    v = Vector(A, B)
+    return v.mod
+
+def is_intersected(A, B, C, D):
+    AC = Vector(A, C)
+    AD = Vector(A, D)
+    BC = Vector(B, C)
+    BD = Vector(B, D)
+    CA = negative(AC)
+    CB = negative(BC)
+    DA = negative(AD)
+    DB = negative(BD)
+
+    return (cross_product(AC, AD) * cross_product(BC, BD) <= ZERO) \
+        and (cross_product(CA, CB) * cross_product(DA, DB) <= ZERO)
+
+def check(points):
+    num = len(points)
+    flag = False
+    for i in range(num):
+        A = Point(points[i, 0], points[i, 1])
+        B = Point(points[(i+1) % num, 0], points[(i+1) % num, 1])
+
+        for j in range(i+2,num):
+            C = Point(points[j,0], points[j,1])
+            D = Point(points[(j + 1) % num, 0], points[(j + 1) % num, 1])
+            if is_intersected(A,B,C,D):
+                flag = True
+                # print((A.x,A.y),(B.x,B.y),(C.x,C.y),(D.x,D.y))
+
+                break
+        if flag:
+            break
+
+    return not flag
+
+def norm(x):
+    length = math.sqrt(x.x*x.x+x.y*x.y)
+    return Vector(Point(0, 0), Point(x.x/length, x.y/length))
+
+def get_left(x):
+    a = x.x
+    b = x.y
+    if math.fabs(a) < math.fabs(ZERO):
+        return Vector(Point(0,0), Point(-1, 0))
+
+    return norm(Vector(Point(0, 0), Point(-b / a, 1)))
+
+def get_right(x):
+    a = x.x
+    b = x.y
+    if math.fabs(a) < math.fabs(ZERO):
+        return Vector(Point(0, 0), Point(1, 0))
+
+    return norm(Vector(Point(0, 0), Point(b / a, -1)))
+
+# xx = [0,0,2,0,2,-2,1,2]
+# print check(xx)
+# xx = [0,0,2,0,2,-2,0,-2]
+# print check(xx)
+# A = Point(1,0)
+# B = Point(1,1)
+# C = Point(0,0)
+# D = Point(0,1)
+# print is_intersected(A,B,C,D)
+# print is_intersected(A,D,B,C)
+
+def round(x,n):
+    res = np.round(x).astype(np.int32)
+    while res < 0:
+        res += n
+    res %= n
+    return res
