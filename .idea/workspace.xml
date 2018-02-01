@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570e4564-60ed-4114-958a-7b5f35f25603" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knocknail.py" afterPath="$PROJECT_DIR$/knocknail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outcmaesaxlen.dat" afterPath="$PROJECT_DIR$/outcmaesaxlen.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outcmaesaxlencorr.dat" afterPath="$PROJECT_DIR$/outcmaesaxlencorr.dat" />
@@ -10,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outcmaesxmean.dat" afterPath="$PROJECT_DIR$/outcmaesxmean.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outcmaesxrecentbest.dat" afterPath="$PROJECT_DIR$/outcmaesxrecentbest.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_tool.py" afterPath="$PROJECT_DIR$/plot_tool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,27 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="knocknail.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="knocknail.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knocknail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="178">
+              <caret line="196" column="15" lean-forward="false" selection-start-line="196" selection-start-column="15" selection-end-line="196" selection-end-column="15" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
-                <element signature="e#457#788#0" expanded="false" />
-                <element signature="e#807#983#0" expanded="false" />
+                <element signature="e#457#802#0" expanded="false" />
+                <element signature="e#821#997#0" expanded="false" />
+                <element signature="e#3589#3670#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_tool.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plot_tool.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plot_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="178">
+              <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#141#435#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -49,20 +53,17 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            <state relative-caret-position="394">
+              <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#473#524#0" expanded="false" />
-                <element signature="e#567#619#0" expanded="false" />
                 <element signature="e#662#710#0" expanded="false" />
                 <element signature="e#731#764#0" expanded="false" />
                 <element signature="e#802#1111#0" expanded="false" />
                 <element signature="e#1136#1675#0" expanded="false" />
-                <element signature="e#1694#1791#0" expanded="false" />
-                <element signature="e#1814#1976#0" expanded="false" />
-                <element signature="e#2000#2162#0" expanded="false" />
-                <element signature="e#2406#2504#0" expanded="false" />
+                <element signature="e#2378#2475#0" expanded="false" />
+                <element signature="e#3266#3364#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,7 +73,17 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deblur_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/2120171064_汪汗青/2120171064_汪汗青/codes/codes/deblur_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="266" column="23" lean-forward="false" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -133,8 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knocknail">
+  <component name="RunManager" selected="Python.plot_tool">
     <configuration name="knocknail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,8 +221,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.knocknail" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plot_tool" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_tool" />
+        <item index="1" class="java.lang.String" itemvalue="Python.knocknail" />
       </list>
     </recent_temporary>
   </component>
@@ -242,18 +253,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29500756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29954615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3047776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4036244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45140034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -268,19 +280,84 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/knocknail.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/knocknail.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+            <element signature="e#457#802#0" expanded="false" />
+            <element signature="e#821#997#0" expanded="false" />
+            <element signature="e#3589#3670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#473#524#0" expanded="false" />
+            <element signature="e#662#710#0" expanded="false" />
+            <element signature="e#731#764#0" expanded="false" />
+            <element signature="e#802#1111#0" expanded="false" />
+            <element signature="e#1136#1675#0" expanded="false" />
+            <element signature="e#2378#2475#0" expanded="false" />
+            <element signature="e#3266#3364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2120171064_汪汗青/2120171064_汪汗青/codes/codes/deblur_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="285" column="55" lean-forward="false" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="53" lean-forward="true" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#141#435#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knocknail.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <element signature="e#457#788#0" expanded="false" />
-            <element signature="e#807#983#0" expanded="false" />
+            <element signature="e#457#802#0" expanded="false" />
+            <element signature="e#821#997#0" expanded="false" />
+            <element signature="e#3589#3670#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -300,15 +377,12 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#473#524#0" expanded="false" />
-            <element signature="e#567#619#0" expanded="false" />
             <element signature="e#662#710#0" expanded="false" />
             <element signature="e#731#764#0" expanded="false" />
             <element signature="e#802#1111#0" expanded="false" />
             <element signature="e#1136#1675#0" expanded="false" />
-            <element signature="e#1694#1791#0" expanded="false" />
-            <element signature="e#1814#1976#0" expanded="false" />
-            <element signature="e#2000#2162#0" expanded="false" />
-            <element signature="e#2406#2504#0" expanded="false" />
+            <element signature="e#2378#2475#0" expanded="false" />
+            <element signature="e#3266#3364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -319,8 +393,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <element signature="e#457#788#0" expanded="false" />
-            <element signature="e#807#983#0" expanded="false" />
+            <element signature="e#457#802#0" expanded="false" />
+            <element signature="e#821#997#0" expanded="false" />
+            <element signature="e#3589#3670#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -332,15 +407,12 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#473#524#0" expanded="false" />
-            <element signature="e#567#619#0" expanded="false" />
             <element signature="e#662#710#0" expanded="false" />
             <element signature="e#731#764#0" expanded="false" />
             <element signature="e#802#1111#0" expanded="false" />
             <element signature="e#1136#1675#0" expanded="false" />
-            <element signature="e#1694#1791#0" expanded="false" />
-            <element signature="e#1814#1976#0" expanded="false" />
-            <element signature="e#2000#2162#0" expanded="false" />
-            <element signature="e#2406#2504#0" expanded="false" />
+            <element signature="e#2378#2475#0" expanded="false" />
+            <element signature="e#3266#3364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -354,60 +426,66 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/knocknail.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/tool/python.exe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2120171064_汪汗青/2120171064_汪汗青/codes/codes/deblur_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="266" column="23" lean-forward="false" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="394">
+          <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#473#524#0" expanded="false" />
-            <element signature="e#567#619#0" expanded="false" />
             <element signature="e#662#710#0" expanded="false" />
             <element signature="e#731#764#0" expanded="false" />
             <element signature="e#802#1111#0" expanded="false" />
             <element signature="e#1136#1675#0" expanded="false" />
-            <element signature="e#1694#1791#0" expanded="false" />
-            <element signature="e#1814#1976#0" expanded="false" />
-            <element signature="e#2000#2162#0" expanded="false" />
-            <element signature="e#2406#2504#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#2378#2475#0" expanded="false" />
+            <element signature="e#3266#3364#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/knocknail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="178">
+          <caret line="196" column="15" lean-forward="false" selection-start-line="196" selection-start-column="15" selection-end-line="196" selection-end-column="15" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
-            <element signature="e#457#788#0" expanded="false" />
-            <element signature="e#807#983#0" expanded="false" />
+            <element signature="e#457#802#0" expanded="false" />
+            <element signature="e#821#997#0" expanded="false" />
+            <element signature="e#3589#3670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#141#435#0" expanded="false" />
           </folding>
         </state>
       </provider>

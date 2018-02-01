@@ -65,6 +65,32 @@ def check(points):
 
     return not flag
 
+def check_intersection(A, B):
+    num_B = B.shape[0]
+
+    for c in A:
+        pre = 0
+        mark = True
+        for i in range(num_B):
+            a = B[i]
+            b = B[(i+1)%num_B]
+            vc = Vector(Point(a[0],a[1]),Point(c[0],c[1]))
+            vb = Vector(Point(a[0],a[1]),Point(b[0],b[1]))
+            res = cross_product(vc,vb)
+            # print c,i,pre,res
+            if pre != 0:
+                if pre * res < 0:
+                    # print c,i
+                    mark = False
+                    break
+            if res < 0:
+                pre = -1
+            if res > 0:
+                pre = 1
+        if mark:
+            return True
+    return False
+
 def norm(x):
     length = math.sqrt(x.x*x.x+x.y*x.y)
     return Vector(Point(0, 0), Point(x.x/length, x.y/length))
@@ -73,17 +99,23 @@ def get_left(x):
     a = x.x
     b = x.y
     if math.fabs(a) < math.fabs(ZERO):
-        return Vector(Point(0,0), Point(-1, 0))
-
-    return norm(Vector(Point(0, 0), Point(-b / a, 1)))
+        res = Vector(Point(0,0), Point(-1, 0))
+    else:
+        res = norm(Vector(Point(0, 0), Point(-b / a, 1)))
+    if cross_product(res,x) > 0:
+        res = negative(res)
+    return res
 
 def get_right(x):
     a = x.x
     b = x.y
     if math.fabs(a) < math.fabs(ZERO):
-        return Vector(Point(0, 0), Point(1, 0))
-
-    return norm(Vector(Point(0, 0), Point(b / a, -1)))
+        res = Vector(Point(0, 0), Point(-1, 0))
+    else:
+        res = norm(Vector(Point(0, 0), Point(-b / a, 1)))
+    if cross_product(res, x) < 0:
+        res = negative(res)
+    return res
 
 # xx = [0,0,2,0,2,-2,1,2]
 # print check(xx)
